@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+$(function () {
+
+    Highcharts.data({
+        csv: document.getElementById('tsv').innerHTML,
+        itemDelimiter: '\t',
+        parsed: function (columns) {
+
+            var brands = {},
+                brandsData = [],
+                versions = {},
+                drilldownSeries = [];
+            
+            // Parse percentage strings
+            columns[1] = $.map(columns[1], function (value) {
+                if (value.indexOf('%') === value.length - 1) {
+                    value = parseFloat(value);
+                }
+                return value;
+            });
+
+            $.each(columns[0], function (i, name) {
+                var brand,
+                    version;
+
+                if (i > 0) {
+
+                    // Remove special edition notes
+                    name = name.split(' -')[0];
+
+                    // Split into brand and version
+                    version = name.match(/([0-9]+[\.0-9x]*)/);
+                    if (version) {
+                        version = version[0];
+                    }
+                    brand = name.replace(version, '');
+
+                    // Create the main data
+                    if (!brands[brand]) {
+                        brands[brand] = columns[1][i];
+                    } else {
+                        brands[brand] += columns[1][i];
+                    }
+
+                    // Create the version data
+                    if (version !== null) {
+                        if (!versions[brand]) {
+                            versions[brand] = [];
+                        }
+                        versions[brand].push(['v' + version, columns[1][i]]);
+                    }
+                }
+                
+            });
+
+            $.each(brands, function (name, y) {
+                brandsData.push({ 
+                    name: name, 
+                    y: y,
+                    drilldown: versions[name] ? name : null
+                });
+            });
+            $.each(versions, function (key, value) {
+                drilldownSeries.push({
+                    name: key,
+                    id: key,
+                    data: value
+                });
+            });
+
+            // Create the chart
+            $('#container').highcharts({
+                chart: {
+                    type: 'pie'
+                },
+                title: {
+                    text: 'Browser market shares. November, 2013.'
+                },
+                subtitle: {
+                    text: 'Click the slices to view versions. Source: netmarketshare.com.'
+                },
+                plotOptions: {
+                    series: {
+                        dataLabels: {
+                            enabled: true,
+                            format: '{point.name}: {point.y:.1f}%'
+                        }
+                    }
+                },
+
+                tooltip: {
+                    headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                    pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+                }, 
+
+                series: [{
+                    name: 'Brands',
+                    colorByPoint: true,
+                    data: brandsData
+                }],
+                drilldown: {
+                    series: drilldownSeries
+                }
+            })
+
+        }
+    });
+});
+    
+
+		</script>
+	</head>
+	<body>
+<script src="../../js/highcharts.js"></script>
+<script src="../../js/modules/data.js"></script>
+<script src="../../js/modules/drilldown.js"></script>
+
+<div id="container" style="min-width: 310px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+
+<!-- Data from www.netmarketshare.com. Select Browsers => Desktop share by version. Download as tsv. -->
+<pre id="tsv" style="display:none">Browser Version	Total Market Share
+PWF#C01	Andre	2.9%
+PWF#C01	Carmo	0.4%
+PWF#C01	Eduardo	0.1%
+PWF#C01	Francisco	1.0%
+PWF#C01	Gilberto	2.0%
+PWF#C01	Idelson	0.2%
+PWF#C01	José	0.0%
+PWF#C01	Laerte	0.2%
+PWF#C01	Marcus	0.1%
+PWF#C01	Mauricio	0.4%
+PWF#C01	Pedro	0.3%
+PWF#C01	Rafael	0.1%
+PWF#C01	Rafael	0.8%
+PWF#C01	Wellington	0.8%
+PWF#C01	Wilson	1.4%
+PWF#C03	Andre	0.3%
+PWF#C03	Carlos	0.1%
+PWF#C03	Ediemerson	0.4%
+PWF#C03	Eduardo	0.0%
+PWF#C03	Leonardo	0.1%
+PWF#C03	Marcio	0.1%
+PWF#C03	Marcos	0.2%
+PWF#C03	Sandro	1.4%
+PWF#C05	Celso	7.5%
+PWF#C05	Fabio	0.0%
+PWF#C05	José	0.3%
+PWF#C05	Luiz	0.8%
+PWF#C06	Carlos	2.0%
+PWF#C06	Michael	0.8%
+PWF#C06	Patrick	0.1%
+PWF#C06	Rafael	0.0%
+PWF#F01	Claudio	0.2%
+PWF#F01	Fabiano	0.7%
+PWF#F01	Giovani	0.3%
+PWF#F01	Luis	0.1%
+PWF#F01	Marcos	0.0%
+PWF#F01	Maria	0.8%
+PWF#F01	Patricia	1.5%
+PWF#F02	Antonio	0.9%
+PWF#F02	Fellipe	17.6%
+PWF#F02	Gilson	0.3%
+PWF#F02	Giovana	0.5%
+PWF#F02	Henrique	0.0%
+PWF#F02	Lival	1.0%
+PWF#F02	Luciano	0.1%
+PWF#F02	Marcello	0.0%
+PWF#F02	Marcos	0.7%
+PWF#F02	Marcos	7.5%
+PWF#F02	Paulo	0.0%
+PWF#F02	Sergio	0.4%
+W*ME02	Alexandre	0.2%
+W*ME02	Bruno	0.6%
+W*ME02	Henrique	0.4%
+W*ME02	Jose	9.7%
+W*ME02	Kelli	0.6%
+W*ME02	Marcos	0.7%
+W*ME02	Ozano	30.3%
+</pre>
+
+	</body>
+</html>

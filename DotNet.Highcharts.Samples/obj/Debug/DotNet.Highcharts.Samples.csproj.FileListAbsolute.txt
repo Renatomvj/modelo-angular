@@ -1,0 +1,101 @@
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll.config
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.pdb
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.Helpers.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.Mvc.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.Razor.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.WebPages.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.pdb
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.Helpers.xml
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.Mvc.xml
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.Razor.xml
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.WebPages.xml
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.xml
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.xml
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.csprojResolveAssemblyReference.cache
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.dll
+C:\TFS\DotNet.Highcharts\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.pdb
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.pdb
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll.config
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.pdb
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.Helpers.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.Mvc.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.Razor.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.WebPages.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.dll
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.Helpers.xml
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.Mvc.xml
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.Razor.xml
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.WebPages.xml
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.xml
+C:\Users\VanKol00\Downloads\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.xml
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.pdb
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.Helpers.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.Mvc.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.Razor.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.WebPages.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.Helpers.xml
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.Mvc.xml
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.Razor.xml
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.WebPages.xml
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.xml
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.csprojResolveAssemblyReference.cache
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.dll
+C:\Users\Keyrus\Documents\Jefferson Faria\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.pdb
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.pdb
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Helpers.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Mvc.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Razor.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Helpers.xml
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Mvc.xml
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Razor.xml
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.xml
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.xml
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.csprojResolveAssemblyReference.cache
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.dll
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.pdb
+C:\Users\Convex\OneDrive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll.config
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll.config
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\DotNet.Highcharts.Samples.pdb
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Helpers.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Mvc.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Razor.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Helpers.xml
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Mvc.xml
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.Razor.xml
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.xml
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\bin\System.Web.WebPages.Razor.xml
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.dll
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.pdb
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.csproj.CoreCompileInputs.cache
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.csprojAssemblyReference.cache
+C:\Users\Convex\Google Drive\material de consulta\aspx\DotNet.Highcharts.Samples\obj\Debug\DotNet.Highcharts.Samples.csproj.CopyComplete
